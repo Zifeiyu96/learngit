@@ -23,3 +23,7 @@ git push origin master
 git clone git@servername:path/repo-name.git
 
 git checkout -b (branchname) = git branch (branchname)     git checkout (branchname)
+
+git checkout (branchname)  HEAD切换到指定分支
+
+git branch  				查看当前分支
