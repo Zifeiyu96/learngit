@@ -19,3 +19,7 @@ git reset HEAD (filenam)
 git remote add origin git@servername:path/repo-name.git
 git push -u origin master
 git push origin master
+
+git clone git@servername:path/repo-name.git
+
+git checkout -b (branchname) = git branch (branchname)     git checkout (branchname)
