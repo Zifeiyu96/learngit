@@ -15,4 +15,3 @@ git diff --cached			暂存区与版本库
 git checkout -- (filenam)	返回最近一次git commit或git add后的状态
 
 git reset HEAD (filenam)
-
