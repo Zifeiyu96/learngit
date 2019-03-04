@@ -35,3 +35,13 @@ Git鼓励大量使用分支：
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward：
+$ git merge --no-ff -m "merge with no-ff" dev
+因为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。
+
+git stash 					缓存工作区内容
+git stash list  			查看stash记录
+git stash apply	 stash@{n}	恢复一条stash
+git stash drop   stash@{n}	删除一条stash
+git stash pop	 stash@{n}	恢复并删除stash
