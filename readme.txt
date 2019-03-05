@@ -6,3 +6,5 @@ Git tracks changes of files.
 Create a new branch is quick And simple.
 
 keep branch
+
+change push access to SSH
